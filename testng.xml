@@ -1,0 +1,28 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Charter">
+  
+    <parameter name="pdfngreport-properties" value="pdfngreport.properties" />
+  
+  <listeners>
+    <listener class-name="com.uttesh.pdfngreport.PDFReportListener" />
+  </listeners>  
+    
+  <suite-files>
+  
+      <suite-file path="./Suite_CharterCom.xml"/>
+      <suite-file path="./Suite_SpectrumBusiness.xml"/> 
+      <suite-file path="./Suite_DirectSales.xml"/> 
+      <suite-file path="./Suite_Bae.xml"/>
+      <suite-file path="./Suite_Affiliates.xml"/>
+      <suite-file path="./Suite_LP.xml"/>
+      <suite-file path="./Suite_Mobile.xml"/>
+      <suite-file path="./Suite_BusinessLP.xml"/>
+  <!--      
+       -->
+      
+       
+    <!-- <suite-file path="./Suite_Miscellaneous.xml"/> --> 
+   
+   
+  </suite-files>
+</suite>

@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="SpectrumBusiness">
+
+<test name="Business.spectrum.com">
+    <classes>
+        <class name="com.charter.suiteSpectrumBusiness.TestCase_SbNonAutomated" ></class>  
+    </classes>
+</test>
+</suite>
+

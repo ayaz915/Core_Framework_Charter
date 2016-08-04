@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Bae]">
+  <parameter name="pdfngreport-properties" value="pdfngreport.properties"/>
+  <listeners>
+    <listener class-name="com.uttesh.pdfngreport.PDFReportListener"/>
+  </listeners>
+  <test name="Baedirectsales(failed)">
+    <classes>
+      <class name="com.charter.suiteBae.TestCase_BaeNonAutomated">
+        <methods>
+          <include name="nonAutomatedBuyFlow" invocation-numbers="0"/>
+          <include name="checkTestSkip"/>
+          <include name="checkSuiteSkip"/>
+          <include name="testData"/>
+          <include name="reportDataSetResult"/>
+        </methods>
+      </class> <!-- com.charter.suiteBae.TestCase_BaeNonAutomated -->
+    </classes>
+  </test> <!-- Baedirectsales(failed) -->
+</suite> <!-- Failed suite [Bae] -->

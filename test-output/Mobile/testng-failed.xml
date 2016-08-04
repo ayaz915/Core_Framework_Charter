@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Mobile]">
+  <parameter name="pdfngreport-properties" value="pdfngreport.properties"/>
+  <listeners>
+    <listener class-name="com.uttesh.pdfngreport.PDFReportListener"/>
+  </listeners>
+  <test name="Mobile-SPInternet(failed)">
+    <classes>
+      <class name="com.charter.mobile.TestCase_lfo7nLFO">
+        <methods>
+          <include name="checkTestSkip"/>
+          <include name="reportDataSetResult"/>
+          <include name="reportTestResult"/>
+          <include name="testData"/>
+        </methods>
+      </class> <!-- com.charter.mobile.TestCase_lfo7nLFO -->
+      <class name="com.charter.mobile.TestCase_lfo9nLFO">
+        <methods>
+          <include name="reportTestResult"/>
+          <include name="checkTestSkip"/>
+          <include name="checkSuiteSkip"/>
+          <include name="reportDataSetResult"/>
+          <include name="testData"/>
+        </methods>
+      </class> <!-- com.charter.mobile.TestCase_lfo9nLFO -->
+      <class name="com.charter.mobile.TestCase_TP100Mb">
+        <methods>
+          <include name="checkTestSkip"/>
+          <include name="reportDataSetResult"/>
+          <include name="reportTestResult"/>
+          <include name="testData"/>
+        </methods>
+      </class> <!-- com.charter.mobile.TestCase_TP100Mb -->
+      <class name="com.charter.mobile.TestCase_PlatChicInt">
+        <methods>
+          <include name="checkTestSkip"/>
+          <include name="reportTestResult"/>
+          <include name="reportDataSetResult"/>
+          <include name="testData"/>
+        </methods>
+      </class> <!-- com.charter.mobile.TestCase_PlatChicInt -->
+      <class name="com.charter.mobile.TestCase_PlatChicRes">
+        <methods>
+          <include name="checkTestSkip"/>
+          <include name="reportDataSetResult"/>
+          <include name="reportTestResult"/>
+          <include name="testData"/>
+        </methods>
+      </class> <!-- com.charter.mobile.TestCase_PlatChicRes -->
+      <class name="com.charter.mobile.TestCase_TriplePlay">
+        <methods>
+          <include name="checkTestSkip"/>
+          <include name="reportDataSetResult"/>
+          <include name="reportTestResult"/>
+          <include name="testData"/>
+        </methods>
+      </class> <!-- com.charter.mobile.TestCase_TriplePlay -->
+      <class name="com.charter.mobile.TestCase_SPI100Mb">
+        <methods>
+          <include name="checkTestSkip"/>
+          <include name="reportDataSetResult"/>
+          <include name="reportTestResult"/>
+          <include name="testData"/>
+        </methods>
+      </class> <!-- com.charter.mobile.TestCase_SPI100Mb -->
+      <class name="com.charter.mobile.TestCase_lfo8nLFO">
+        <methods>
+          <include name="checkTestSkip"/>
+          <include name="reportTestResult"/>
+          <include name="reportDataSetResult"/>
+          <include name="testData"/>
+        </methods>
+      </class> <!-- com.charter.mobile.TestCase_lfo8nLFO -->
+      <class name="com.charter.mobile.TestCase_SPInternet">
+        <methods>
+          <include name="SPInternet" invocation-numbers="4"/>
+          <include name="reportDataSetResult"/>
+          <include name="reportTestResult"/>
+          <include name="checkTestSkip"/>
+          <include name="testData"/>
+        </methods>
+      </class> <!-- com.charter.mobile.TestCase_SPInternet -->
+    </classes>
+  </test> <!-- Mobile-SPInternet(failed) -->
+</suite> <!-- Failed suite [Mobile] -->

@@ -1,0 +1,21 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="BusinessLP">
+
+<test name="Business LP-tp4q">
+    <classes>
+        <class name="com.charter.suiteBusinessLP.TestCase_Spectrumtp4q" ></class>  
+    </classes>
+</test>
+<test name="Business LP-Serviceability">
+    <classes>
+        <class name="com.charter.suiteBusinessLP.TestCase_SpectrumServiceability" ></class>  
+    </classes>
+</test>
+
+<test name="Business LP-SellSheetLead">
+    <classes>
+        <class name="com.charter.suiteBusinessLP.TestCase_SpectrumSellSheetLead" ></class>  
+    </classes>
+</test>
+</suite>
+

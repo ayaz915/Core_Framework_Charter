@@ -1,0 +1,57 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="LP">
+
+<test name="Residential LP-TriplePlay">
+    <classes>
+        <class name="com.charter.suiteLP.TestCase_TriplePlay" ></class>  
+    </classes>
+</test>
+
+<test name="Residential LP-SPInternet">
+    <classes>
+        <class name="com.charter.suiteLP.TestCase_SPInternet" ></class>  
+    </classes>
+</test>
+<test name="Residential LP-AntiSat">
+    <classes>
+        <class name="com.charter.suiteLP.TestCase_AntiSat" ></class>  
+    </classes>
+</test>
+<test name="Residential LP-PlatChicRes">
+    <classes>
+        <class name="com.charter.suiteLP.TestCase_PlatChicRes" ></class>  
+    </classes>
+</test>
+
+<test name="Residential LP-SPI100Mb">
+    <classes>
+        <class name="com.charter.suiteLP.TestCase_SPI100Mb" ></class>  
+    </classes>
+</test>
+<test name="Residential LP-TP100Mb">
+    <classes>
+        <class name="com.charter.suiteLP.TestCase_TP100Mb" ></class>  
+    </classes>
+</test>
+<test name="Residential LP-PlatChicInt">
+    <classes>
+        <class name="com.charter.suiteLP.TestCase_PlatChicInt" ></class>  
+    </classes>
+</test>
+<test name="Residential LP-LFO7n">
+    <classes>
+        <class name="com.charter.suiteLP.TestCase_lfo7nLFO" ></class>  
+    </classes>
+</test>
+<test name="Residential LP-LFO8n">
+    <classes>
+        <class name="com.charter.suiteLP.TestCase_lfo8nLFO" ></class>  
+    </classes>
+</test>
+<test name="Residential LP-LFO9n">
+    <classes>
+        <class name="com.charter.suiteLP.TestCase_lfo9nLFO" ></class>  
+    </classes>
+</test>
+</suite>
+

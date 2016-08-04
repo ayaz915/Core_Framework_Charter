@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [CharterCom]">
+  <parameter name="pdfngreport-properties" value="pdfngreport.properties"/>
+  <listeners>
+    <listener class-name="com.uttesh.pdfngreport.PDFReportListener"/>
+  </listeners>
+  <test name="Charter.com(failed)">
+    <classes>
+      <class name="com.charter.suiteCharterCom.TestCase_ComNonAutomated">
+        <methods>
+          <include name="reportTestResult"/>
+          <include name="reportDataSetResult"/>
+          <include name="testData"/>
+          <include name="nonAutomatedBuyFlow" invocation-numbers="2"/>
+          <include name="checkTestSkip"/>
+          <include name="checkSuiteSkip"/>
+        </methods>
+      </class> <!-- com.charter.suiteCharterCom.TestCase_ComNonAutomated -->
+    </classes>
+  </test> <!-- Charter.com(failed) -->
+</suite> <!-- Failed suite [CharterCom] -->

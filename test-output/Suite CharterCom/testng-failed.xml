@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite CharterCom]">
+  <parameter name="pdfngreport-properties" value="pdfngreport.properties"/>
+  <listeners>
+    <listener class-name="com.uttesh.pdfngreport.PDFReportListener"/>
+  </listeners>
+  <test name="ComNonAutomated(failed)">
+    <classes>
+      <class name="com.charter.suiteCharterCom.TestCase_ComNonAutomated">
+        <methods>
+          <include name="testcaseComNonAutomated"/>
+          <include name="checkSuiteSkip"/>
+        </methods>
+      </class> <!-- com.charter.suiteCharterCom.TestCase_ComNonAutomated -->
+    </classes>
+  </test> <!-- ComNonAutomated(failed) -->
+</suite> <!-- Failed suite [Suite CharterCom] -->

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Affiliates]">
+  <parameter name="pdfngreport-properties" value="pdfngreport.properties"/>
+  <listeners>
+    <listener class-name="com.uttesh.pdfngreport.PDFReportListener"/>
+  </listeners>
+  <test name="Residential Affiliates(failed)">
+    <classes>
+      <class name="com.charter.Affiliates.Residential">
+        <methods>
+          <include name="testData"/>
+          <include name="reportTestResult"/>
+          <include name="nonAutomatedBuyFlow" invocation-numbers="0 3 6"/>
+          <include name="checkTestSkip"/>
+          <include name="reportDataSetResult"/>
+        </methods>
+      </class> <!-- com.charter.Affiliates.Residential -->
+      <class name="com.charter.Affiliates.Business">
+        <methods>
+          <include name="checkSuiteSkip"/>
+          <include name="reportTestResult"/>
+          <include name="testData"/>
+          <include name="reportDataSetResult"/>
+          <include name="checkTestSkip"/>
+        </methods>
+      </class> <!-- com.charter.Affiliates.Business -->
+    </classes>
+  </test> <!-- Residential Affiliates(failed) -->
+  <test name="Business Affiliates(failed)">
+    <classes>
+      <class name="com.charter.Affiliates.Residential">
+        <methods>
+          <include name="testData"/>
+          <include name="reportTestResult"/>
+          <include name="checkTestSkip"/>
+          <include name="reportDataSetResult"/>
+        </methods>
+      </class> <!-- com.charter.Affiliates.Residential -->
+      <class name="com.charter.Affiliates.Business">
+        <methods>
+          <include name="checkSuiteSkip"/>
+          <include name="reportTestResult"/>
+          <include name="testData"/>
+          <include name="reportDataSetResult"/>
+          <include name="nonAutomatedBuyFlow" invocation-numbers="1"/>
+          <include name="checkTestSkip"/>
+        </methods>
+      </class> <!-- com.charter.Affiliates.Business -->
+    </classes>
+  </test> <!-- Business Affiliates(failed) -->
+</suite> <!-- Failed suite [Affiliates] -->

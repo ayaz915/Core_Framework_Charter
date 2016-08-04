@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="CharterCom">
+
+<test name="Charter.com">
+    <classes>
+        <class name="com.charter.suiteCharterCom.TestCase_ComNonAutomated" ></class>  
+    </classes>
+</test>
+</suite>
+

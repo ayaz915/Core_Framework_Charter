@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Miscellaneous]">
+  <parameter name="pdfngreport-properties" value="pdfngreport.properties"/>
+  <listeners>
+    <listener class-name="com.uttesh.pdfngreport.PDFReportListener"/>
+  </listeners>
+  <test name="CheckBrokenLink(failed)">
+    <classes>
+      <class name="com.charter.miscellaneous.TestCase_CheckBrokenLink">
+        <methods>
+          <include name="checkSuiteSkip"/>
+          <include name="reportTestResult"/>
+          <include name="CheckBrokenLink" invocation-numbers="0"/>
+          <include name="reportDataSetResult"/>
+          <include name="checkTestSkip"/>
+        </methods>
+      </class> <!-- com.charter.miscellaneous.TestCase_CheckBrokenLink -->
+    </classes>
+  </test> <!-- CheckBrokenLink(failed) -->
+</suite> <!-- Failed suite [Miscellaneous] -->

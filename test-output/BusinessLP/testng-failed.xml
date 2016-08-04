@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [BusinessLP]">
+  <parameter name="pdfngreport-properties" value="pdfngreport.properties"/>
+  <listeners>
+    <listener class-name="com.uttesh.pdfngreport.PDFReportListener"/>
+  </listeners>
+  <test name="Business LP-tp4q(failed)">
+    <classes>
+      <class name="com.charter.suiteBusinessLP.TestCase_Spectrumtp4q">
+        <methods>
+          <include name="reportTestResult"/>
+          <include name="reportDataSetResult"/>
+          <include name="tp4q" invocation-numbers="0"/>
+          <include name="checkTestSkip"/>
+        </methods>
+      </class> <!-- com.charter.suiteBusinessLP.TestCase_Spectrumtp4q -->
+      <class name="com.charter.suiteBusinessLP.TestCase_SpectrumServiceability">
+        <methods>
+          <include name="checkTestSkip"/>
+          <include name="reportTestResult"/>
+          <include name="reportDataSetResult"/>
+        </methods>
+      </class> <!-- com.charter.suiteBusinessLP.TestCase_SpectrumServiceability -->
+      <class name="com.charter.suiteBusinessLP.TestCase_SpectrumSellSheetLead">
+        <methods>
+          <include name="checkTestSkip"/>
+          <include name="reportDataSetResult"/>
+          <include name="checkSuiteSkip"/>
+          <include name="reportTestResult"/>
+        </methods>
+      </class> <!-- com.charter.suiteBusinessLP.TestCase_SpectrumSellSheetLead -->
+    </classes>
+  </test> <!-- Business LP-tp4q(failed) -->
+</suite> <!-- Failed suite [BusinessLP] -->

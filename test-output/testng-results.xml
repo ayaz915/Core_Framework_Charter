@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="219943" started-at="2016-08-03T20:52:25Z" finished-at="2016-08-03T20:56:05Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="219943" started-at="2016-08-03T20:52:25Z" finished-at="2016-08-03T20:56:05Z">
+      <class name="com.charter.suiteDirectSales.TestCase_DirectSaleNonAutomated">
+        <test-method status="PASS" signature="checkSuiteSkip()[pri:0, instance:com.charter.suiteDirectSales.TestCase_DirectSaleNonAutomated@5bcab519]" name="checkSuiteSkip" is-config="true" duration-ms="774" started-at="2016-08-04T02:22:25Z" finished-at="2016-08-04T02:22:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkSuiteSkip -->
+        <test-method status="PASS" signature="checkTestSkip()[pri:0, instance:com.charter.suiteDirectSales.TestCase_DirectSaleNonAutomated@5bcab519]" name="checkTestSkip" is-config="true" duration-ms="3" started-at="2016-08-04T02:22:25Z" finished-at="2016-08-04T02:22:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTestSkip -->
+        <test-method status="PASS" signature="testData(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:com.charter.suiteDirectSales.TestCase_DirectSaleNonAutomated@5bcab519]" test-instance-name="nonAutomatedBuyFlow (Firefox)" name="testData" is-config="true" duration-ms="1" started-at="2016-08-04T02:22:25Z" finished-at="2016-08-04T02:22:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.charter.suiteDirectSales.TestCase_DirectSaleNonAutomated.nonAutomatedBuyFlow(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.lang.Exception]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@56e07a08]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testData -->
+        <test-method status="PASS" signature="nonAutomatedBuyFlow(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.charter.suiteDirectSales.TestCase_DirectSaleNonAutomated@5bcab519]" test-instance-name="nonAutomatedBuyFlow (Firefox)" name="nonAutomatedBuyFlow" duration-ms="219598" started-at="2016-08-04T02:22:25Z" data-provider="getTestData" finished-at="2016-08-04T02:26:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[9799 hale dr]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[63123]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[chooseOffer_103111010]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[$96.96]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[https://directsales.charter.com/]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[tv_option_dvr_no]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[autoCust4065216_no]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[phone_option_port_keep_existing]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- nonAutomatedBuyFlow -->
+        <test-method status="PASS" signature="reportDataSetResult()[pri:0, instance:com.charter.suiteDirectSales.TestCase_DirectSaleNonAutomated@5bcab519]" test-instance-name="nonAutomatedBuyFlow (Firefox)" name="reportDataSetResult" is-config="true" duration-ms="291" started-at="2016-08-04T02:26:05Z" finished-at="2016-08-04T02:26:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportDataSetResult -->
+        <test-method status="PASS" signature="reportTestResult()[pri:0, instance:com.charter.suiteDirectSales.TestCase_DirectSaleNonAutomated@5bcab519]" name="reportTestResult" is-config="true" duration-ms="38" started-at="2016-08-04T02:26:05Z" finished-at="2016-08-04T02:26:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportTestResult -->
+      </class> <!-- com.charter.suiteDirectSales.TestCase_DirectSaleNonAutomated -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

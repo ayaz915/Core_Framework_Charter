@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [DirectSales]">
+  <test name="DirectSales(failed)">
+    <classes>
+      <class name="com.charter.suiteDirectSales.TestCase_DirectSaleNonAutomated">
+        <methods>
+          <include name="reportDataSetResult"/>
+          <include name="reportTestResult"/>
+          <include name="nonAutomatedBuyFlow" invocation-numbers="0 1"/>
+          <include name="checkTestSkip"/>
+          <include name="testData"/>
+          <include name="checkSuiteSkip"/>
+        </methods>
+      </class> <!-- com.charter.suiteDirectSales.TestCase_DirectSaleNonAutomated -->
+    </classes>
+  </test> <!-- DirectSales(failed) -->
+</suite> <!-- Failed suite [DirectSales] -->

@@ -1,0 +1,18 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Affiliates">
+
+  <!--   -->
+<test name="Residential Affiliates">
+    <classes>
+        <class name="com.charter.Affiliates.Residential" ></class>  
+    </classes>
+</test>
+
+<test name="Business Affiliates">
+    <classes>
+        <class name="com.charter.Affiliates.Business" ></class>  
+    </classes>
+</test>
+
+</suite>
+

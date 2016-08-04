@@ -1,0 +1,19 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Miscellaneous">
+
+<test name="CheckBrokenLink">
+    <classes>
+        <class name="com.charter.miscellaneous.TestCase_CheckBrokenLink" ></class>  
+    </classes>
+</test>
+
+<!-- <test name="VerifyTagInHTML">
+    <classes>
+        <class name="com.charter.miscellaneous.TestCase_VerifyTagInHTML" ></class>  
+    </classes>
+</test> -->
+
+
+
+</suite>
+

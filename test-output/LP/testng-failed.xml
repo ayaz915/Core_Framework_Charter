@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [LP]">
+  <parameter name="pdfngreport-properties" value="pdfngreport.properties"/>
+  <listeners>
+    <listener class-name="com.uttesh.pdfngreport.PDFReportListener"/>
+  </listeners>
+  <test name="Residential LP-SPI100Mb(failed)">
+    <classes>
+      <class name="com.charter.suiteLP.TestCase_PlatChicInt">
+        <methods>
+          <include name="reportTestResult"/>
+          <include name="testData"/>
+          <include name="checkTestSkip"/>
+          <include name="reportDataSetResult"/>
+        </methods>
+      </class> <!-- com.charter.suiteLP.TestCase_PlatChicInt -->
+      <class name="com.charter.suiteLP.TestCase_lfo7nLFO">
+        <methods>
+          <include name="testData"/>
+          <include name="reportDataSetResult"/>
+          <include name="reportTestResult"/>
+          <include name="checkTestSkip"/>
+        </methods>
+      </class> <!-- com.charter.suiteLP.TestCase_lfo7nLFO -->
+      <class name="com.charter.suiteLP.TestCase_lfo9nLFO">
+        <methods>
+          <include name="checkSuiteSkip"/>
+          <include name="reportDataSetResult"/>
+          <include name="testData"/>
+          <include name="reportTestResult"/>
+          <include name="checkTestSkip"/>
+        </methods>
+      </class> <!-- com.charter.suiteLP.TestCase_lfo9nLFO -->
+      <class name="com.charter.suiteLP.TestCase_lfo8nLFO">
+        <methods>
+          <include name="checkTestSkip"/>
+          <include name="testData"/>
+          <include name="reportTestResult"/>
+          <include name="reportDataSetResult"/>
+        </methods>
+      </class> <!-- com.charter.suiteLP.TestCase_lfo8nLFO -->
+      <class name="com.charter.suiteLP.TestCase_TriplePlay">
+        <methods>
+          <include name="reportDataSetResult"/>
+          <include name="testData"/>
+          <include name="reportTestResult"/>
+          <include name="checkTestSkip"/>
+        </methods>
+      </class> <!-- com.charter.suiteLP.TestCase_TriplePlay -->
+      <class name="com.charter.suiteLP.TestCase_TP100Mb">
+        <methods>
+          <include name="checkTestSkip"/>
+          <include name="testData"/>
+          <include name="reportDataSetResult"/>
+          <include name="reportTestResult"/>
+        </methods>
+      </class> <!-- com.charter.suiteLP.TestCase_TP100Mb -->
+      <class name="com.charter.suiteLP.TestCase_SPI100Mb">
+        <methods>
+          <include name="reportDataSetResult"/>
+          <include name="testData"/>
+          <include name="reportTestResult"/>
+          <include name="checkTestSkip"/>
+          <include name="SPI100Mb" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.charter.suiteLP.TestCase_SPI100Mb -->
+      <class name="com.charter.suiteLP.TestCase_PlatChicRes">
+        <methods>
+          <include name="reportTestResult"/>
+          <include name="testData"/>
+          <include name="checkTestSkip"/>
+          <include name="reportDataSetResult"/>
+        </methods>
+      </class> <!-- com.charter.suiteLP.TestCase_PlatChicRes -->
+      <class name="com.charter.suiteLP.TestCase_SPInternet">
+        <methods>
+          <include name="reportDataSetResult"/>
+          <include name="testData"/>
+          <include name="reportTestResult"/>
+          <include name="checkTestSkip"/>
+        </methods>
+      </class> <!-- com.charter.suiteLP.TestCase_SPInternet -->
+      <class name="com.charter.suiteLP.TestCase_AntiSat">
+        <methods>
+          <include name="reportDataSetResult"/>
+          <include name="testData"/>
+          <include name="reportTestResult"/>
+          <include name="checkTestSkip"/>
+        </methods>
+      </class> <!-- com.charter.suiteLP.TestCase_AntiSat -->
+    </classes>
+  </test> <!-- Residential LP-SPI100Mb(failed) -->
+</suite> <!-- Failed suite [LP] -->

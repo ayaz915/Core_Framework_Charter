@@ -1,0 +1,233 @@
+<html>
+<head>
+<title>TestNG:  Residential Affiliates</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Residential Affiliates</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>7/3/0</td>
+</tr><tr>
+<td>Started on:</td><td>Sat Jul 30 01:05:06 IST 2016</td>
+</tr>
+<tr><td>Total time:</td><td>1969 seconds (1969589 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.charter.Affiliates.Residential.nonAutomatedBuyFlow()'><b>nonAutomatedBuyFlow</b><br>Test class: com.charter.Affiliates.Residential (nonAutomatedBuyFlow (https://shop.charter.com/buyflow/buyflow-localization?v=SVG ))<br>Parameters: https://shop.charter.com/buyflow/buyflow-localization?v=ACO  , 9799 hale dr, 63123, Firefox, chooseOffer_103311010, $96.96, , tv_option_dvr_no, autoCust4065210_no, phone_option_port_keep_existing</td>
+<td><div><pre>java.lang.Exception:  Not able to Scroll Page....!!!!
+	at com.charter.base.TestBase.handleCustomizationResi(TestBase.java:1095)
+	at com.charter.Affiliates.Residential.nonAutomatedBuyFlow(Residential.java:162)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace81355344", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace81355344'><pre>java.lang.Exception:  Not able to Scroll Page....!!!!
+	at com.charter.base.TestBase.handleCustomizationResi(TestBase.java:1095)
+	at com.charter.Affiliates.Residential.nonAutomatedBuyFlow(Residential.java:162)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1194)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:152)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:57)
+</pre></div></td>
+<td>130</td>
+<td>com.charter.Affiliates.Residential@67b92f0a</td></tr>
+<tr>
+<td title='com.charter.Affiliates.Residential.nonAutomatedBuyFlow()'><b>nonAutomatedBuyFlow</b><br>Test class: com.charter.Affiliates.Residential (nonAutomatedBuyFlow (https://shop.charter.com/buyflow/buyflow-localization?v=SVG ))<br>Parameters: https://shop.charter.com/buyflow/buyflow-localization?v=DGS, 9799 hale dr, 63123, Firefox, chooseOffer_103311010, $96.96, , tv_option_dvr_no, autoCust4065210_no, phone_option_port_keep_existing</td>
+<td><div><pre>java.lang.Exception:  Stoping the script....!!!!
+	at com.charter.base.TestBase.choosePackage(TestBase.java:365)
+	at com.charter.Affiliates.Residential.nonAutomatedBuyFlow(Residential.java:156)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace697463019", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace697463019'><pre>java.lang.Exception:  Stoping the script....!!!!
+	at com.charter.base.TestBase.choosePackage(TestBase.java:365)
+	at com.charter.Affiliates.Residential.nonAutomatedBuyFlow(Residential.java:156)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1194)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:152)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:57)
+</pre></div></td>
+<td>121</td>
+<td>com.charter.Affiliates.Residential@67b92f0a</td></tr>
+<tr>
+<td title='com.charter.Affiliates.Residential.nonAutomatedBuyFlow()'><b>nonAutomatedBuyFlow</b><br>Test class: com.charter.Affiliates.Residential (nonAutomatedBuyFlow (https://shop.charter.com/buyflow/buyflow-localization?v=SVG ))<br>Parameters: https://shop.charter.com/buyflow/buyflow-localization?v=SVG , 9799 hale dr, 63123, Firefox, chooseOffer_103311010, $96.96, , tv_option_dvr_no, autoCust4065210_no, phone_option_port_keep_existing</td>
+<td><div><pre>java.lang.Exception:  Stoping the script....!!!!
+	at com.charter.base.TestBase.input(TestBase.java:397)
+	at com.charter.Affiliates.Residential.nonAutomatedBuyFlow(Residential.java:170)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1910034407", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1910034407'><pre>java.lang.Exception:  Stoping the script....!!!!
+	at com.charter.base.TestBase.input(TestBase.java:397)
+	at com.charter.Affiliates.Residential.nonAutomatedBuyFlow(Residential.java:170)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1194)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:152)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:57)
+</pre></div></td>
+<td>203</td>
+<td>com.charter.Affiliates.Residential@67b92f0a</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.charter.Affiliates.Residential.nonAutomatedBuyFlow()'><b>nonAutomatedBuyFlow</b><br>Test class: com.charter.Affiliates.Residential (nonAutomatedBuyFlow (https://shop.charter.com/buyflow/buyflow-localization?v=SVG ))<br>Parameters: https://shop.charter.com/buyflow/buyflow-localization?v=accaf  , 9799 hale dr, 63123, Firefox, chooseOffer_103311010, $96.96, , tv_option_dvr_no, autoCust4065210_no, phone_option_port_keep_existing</td>
+<td></td>
+<td>339</td>
+<td>com.charter.Affiliates.Residential@67b92f0a</td></tr>
+<tr>
+<td title='com.charter.Affiliates.Residential.nonAutomatedBuyFlow()'><b>nonAutomatedBuyFlow</b><br>Test class: com.charter.Affiliates.Residential (nonAutomatedBuyFlow (https://shop.charter.com/buyflow/buyflow-localization?v=SVG ))<br>Parameters: https://shop.charter.com/buyflow/buyflow-localization?v=ACOAF  , 9799 hale dr, 63123, Firefox, chooseOffer_103311010, $96.96, , tv_option_dvr_no, autoCust4065210_no, phone_option_port_keep_existing</td>
+<td></td>
+<td>191</td>
+<td>com.charter.Affiliates.Residential@67b92f0a</td></tr>
+<tr>
+<td title='com.charter.Affiliates.Residential.nonAutomatedBuyFlow()'><b>nonAutomatedBuyFlow</b><br>Test class: com.charter.Affiliates.Residential (nonAutomatedBuyFlow (https://shop.charter.com/buyflow/buyflow-localization?v=SVG ))<br>Parameters: https://shop.charter.com/buyflow/buyflow-localization?v=DGSAF, 9799 hale dr, 63123, Firefox, chooseOffer_103311010, $96.96, , tv_option_dvr_no, autoCust4065210_no, phone_option_port_keep_existing</td>
+<td></td>
+<td>184</td>
+<td>com.charter.Affiliates.Residential@67b92f0a</td></tr>
+<tr>
+<td title='com.charter.Affiliates.Residential.nonAutomatedBuyFlow()'><b>nonAutomatedBuyFlow</b><br>Test class: com.charter.Affiliates.Residential (nonAutomatedBuyFlow (https://shop.charter.com/buyflow/buyflow-localization?v=SVG ))<br>Parameters: https://shop.charter.com/buyflow/buyflow-localization?v=LFOAF  , 9799 hale dr, 63123, Firefox, chooseOffer_103311010, $96.96, , tv_option_dvr_no, autoCust4065210_no, phone_option_port_keep_existing</td>
+<td></td>
+<td>207</td>
+<td>com.charter.Affiliates.Residential@67b92f0a</td></tr>
+<tr>
+<td title='com.charter.Affiliates.Residential.nonAutomatedBuyFlow()'><b>nonAutomatedBuyFlow</b><br>Test class: com.charter.Affiliates.Residential (nonAutomatedBuyFlow (https://shop.charter.com/buyflow/buyflow-localization?v=SVG ))<br>Parameters: https://shop.charter.com/buyflow/buyflow-localization?v=SVGAF, 9799 hale dr, 63123, Firefox, chooseOffer_103311010, $96.96, , tv_option_dvr_no, autoCust4065210_no, phone_option_port_keep_existing</td>
+<td></td>
+<td>201</td>
+<td>com.charter.Affiliates.Residential@67b92f0a</td></tr>
+<tr>
+<td title='com.charter.Affiliates.Residential.nonAutomatedBuyFlow()'><b>nonAutomatedBuyFlow</b><br>Test class: com.charter.Affiliates.Residential (nonAutomatedBuyFlow (https://shop.charter.com/buyflow/buyflow-localization?v=SVG ))<br>Parameters: https://shop.charter.com/buyflow/buyflow-localization?v=acc, 9799 hale dr, 63123, Firefox, chooseOffer_103311010, $96.96, , tv_option_dvr_no, autoCust4065210_no, phone_option_port_keep_existing</td>
+<td></td>
+<td>186</td>
+<td>com.charter.Affiliates.Residential@67b92f0a</td></tr>
+<tr>
+<td title='com.charter.Affiliates.Residential.nonAutomatedBuyFlow()'><b>nonAutomatedBuyFlow</b><br>Test class: com.charter.Affiliates.Residential (nonAutomatedBuyFlow (https://shop.charter.com/buyflow/buyflow-localization?v=SVG ))<br>Parameters: https://shop.charter.com/buyflow/buyflow-localization?v=LFO   , 9799 hale dr, 63123, Firefox, chooseOffer_103311010, $96.96, , tv_option_dvr_no, autoCust4065210_no, phone_option_port_keep_existing</td>
+<td></td>
+<td>200</td>
+<td>com.charter.Affiliates.Residential@67b92f0a</td></tr>
+</table><p>
+</body>
+</html>

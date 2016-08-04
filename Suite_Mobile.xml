@@ -1,0 +1,60 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Mobile">
+
+<test name="Mobile-TriplePlay">
+    <classes>
+        <class name="com.charter.mobile.TestCase_TriplePlay" ></class>  
+    </classes>
+</test>
+
+ <test name="Mobile-SPInternet">
+    <classes>
+        <class name="com.charter.mobile.TestCase_SPInternet" ></class>  
+    </classes>
+</test>
+
+<!-- <test name="Mobile_AntiSat">
+    <classes>
+        <class name="com.charter.mobile.TestCase_AntiSat" ></class>  
+    </classes>
+</test> -->
+
+
+<test name="Mobile-PlatChicRes">
+    <classes>
+        <class name="com.charter.mobile.TestCase_PlatChicRes" ></class>  
+    </classes>
+</test> 
+
+<test name="Mobile-SPI100Mb">
+    <classes>
+        <class name="com.charter.mobile.TestCase_SPI100Mb" ></class>  
+    </classes>
+</test>
+<test name="Mobile-TP100Mb">
+    <classes>
+        <class name="com.charter.mobile.TestCase_TP100Mb" ></class>  
+    </classes>
+</test>
+<test name="Mobile-PlatChicInt">
+    <classes>
+        <class name="com.charter.mobile.TestCase_PlatChicInt" ></class>  
+    </classes>
+</test>
+<test name="Mobile-LFO7n">
+    <classes>
+        <class name="com.charter.mobile.TestCase_lfo7nLFO" ></class>  
+    </classes>
+</test>
+<test name="Mobile-LFO8n">
+    <classes>
+        <class name="com.charter.mobile.TestCase_lfo8nLFO" ></class>  
+    </classes>
+</test>
+<test name="Mobile-LFO9n">
+    <classes>
+        <class name="com.charter.mobile.TestCase_lfo9nLFO" ></class>  
+    </classes>
+</test>
+</suite>
+

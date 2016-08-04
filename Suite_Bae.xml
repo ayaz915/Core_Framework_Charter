@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Bae">
+
+<test name="Baedirectsales">
+    <classes>
+        <class name="com.charter.suiteBae.TestCase_BaeNonAutomated" ></class>  
+    </classes>
+</test>
+</suite>
+

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite SpectrumBusiness]">
+  <parameter name="pdfngreport-properties" value="pdfngreport.properties"/>
+  <listeners>
+    <listener class-name="com.uttesh.pdfngreport.PDFReportListener"/>
+  </listeners>
+  <test name="SbNonAutomated(failed)">
+    <classes>
+      <class name="com.charter.suiteSpectrumBusiness.TestCase_SbNonAutomated">
+        <methods>
+          <include name="checkSuiteSkip"/>
+          <include name="testcaseSbNonAutomated"/>
+        </methods>
+      </class> <!-- com.charter.suiteSpectrumBusiness.TestCase_SbNonAutomated -->
+    </classes>
+  </test> <!-- SbNonAutomated(failed) -->
+</suite> <!-- Failed suite [Suite SpectrumBusiness] -->

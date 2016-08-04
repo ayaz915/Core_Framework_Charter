@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Charter Suite]">
+  <test name="suiteCharterCom(failed)">
+    <classes>
+      <class name="com.charter.suiteCharterCom.TestCase_ComNonAutomated">
+        <methods>
+          <include name="reportTestResult"/>
+          <include name="reportDataSetResult"/>
+          <include name="testcaseComNonAutomated" invocation-numbers="0 1 2 3"/>
+          <include name="checkTestSkip"/>
+          <include name="checkSuiteSkip"/>
+        </methods>
+      </class> <!-- com.charter.suiteCharterCom.TestCase_ComNonAutomated -->
+      <class name="com.charter.suiteSpectrumBusiness.TestCase_SbNonAutomated">
+        <methods>
+          <include name="checkSuiteSkip"/>
+          <include name="checkTestSkip"/>
+          <include name="reportTestResult"/>
+          <include name="reportDataSetResult"/>
+        </methods>
+      </class> <!-- com.charter.suiteSpectrumBusiness.TestCase_SbNonAutomated -->
+    </classes>
+  </test> <!-- suiteCharterCom(failed) -->
+</suite> <!-- Failed suite [Charter Suite] -->

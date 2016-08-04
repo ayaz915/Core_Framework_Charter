@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite DirectSales]">
+  <parameter name="pdfngreport-properties" value="pdfngreport.properties"/>
+  <listeners>
+    <listener class-name="com.uttesh.pdfngreport.PDFReportListener"/>
+  </listeners>
+  <test name="DirectSalesNonAutomated(failed)">
+    <classes>
+      <class name="com.charter.suiteDirectSales.TestCase_DirectSaleNonAutomated">
+        <methods>
+          <include name="reportDataSetResult"/>
+          <include name="reportTestResult"/>
+          <include name="checkTestSkip"/>
+          <include name="testcaseDirectSaleNonAutomated" invocation-numbers="1 2 3"/>
+          <include name="checkSuiteSkip"/>
+        </methods>
+      </class> <!-- com.charter.suiteDirectSales.TestCase_DirectSaleNonAutomated -->
+    </classes>
+  </test> <!-- DirectSalesNonAutomated(failed) -->
+</suite> <!-- Failed suite [Suite DirectSales] -->
